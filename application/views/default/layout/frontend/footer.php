@@ -7,7 +7,19 @@
 	<div id="footer" style="background: #333; color: #ccc;     font-family: 'Roboto',Tahoma,Geneva,sans-serif; line-height: 26px;">
 		<div class="totop"><div class="gototop"><div class="arrowgototop"></div></div></div>
 		<div class="fshadow"></div>
-		<div id="" class="container-fluid" style="padding-top: 20px;     padding-bottom: 50px;">
+		<div class="contactSection">
+			<div class="container-fluid">
+				
+				<div class="col-sm-8 contact-right"><h2>Hãy để chúng tôi hỗ trợ theo cách bạn muốn</h2><p>Bất kể là Ngày hay Đêm dù Nắng hay Mưa, Chúng tôi luôn mong muốn khách hàng thuận tiện trong việc liên hệ với bộ phận hỗ trợ qua các kênh đa dạng với thời gian phản hồi nhanh nhất.</p>
+					<div> <a class="btnContact" href="#liveChat" onclick="toogleLiveChatPopup(); return false;"><i class="fa fa-wechat"></i>Live chat</a> <a class="btnContact" href="#"><i class="fa fa-envelope"></i>Gửi Email</a> <a class="btnContact" href="tel:0933840696"><i class="fa fa-phone"></i>Gọi điện thoại</a> <a class="btnContact" href="#"><i class="fa fa-ticket"></i>Gửi ticket</a>
+					</div>
+				</div>
+				<div class="col-sm-4 contact-left"> 
+					<img width="255" height="222" src="http://hostvn.net/wp-content/uploads/2016/03/Contact.png" class="center-block img-responsive" alt="Contact">
+				</div>
+			</div>
+		</div>
+		<div id="" class="container-fluid" style="padding-top: 20px;     padding-bottom: 130px;">
 			<div class="footer_widget"> 
 				<div class="col-sm-3">
 					<section id="text-5" class="clearfix widget_text">

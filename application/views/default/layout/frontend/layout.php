@@ -109,6 +109,7 @@
 		$( "#accordion" ).accordion({
 		  icons: icons,
 		  collapsible: true,
+		  autoHeight: true,
 		  active: false
 		});
 	</script>

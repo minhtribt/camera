@@ -108,7 +108,7 @@
 			<div class="title_left" style="float: left;">
 				<div class="text-left hgroup block-title ">
 					<h1 style=" font-family: 'Exo', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 24px;">CAMERA BẾN TRE CO.,LTD</h1>
-					<h2 style=" font-family: 'Exo', sans-serif; font-weight: 400; font-size: 14px; color: #f26520; line-height: 22px; letter-spacing: 2px; ">CHÚNG TÔI MANG ĐẾN CHO BẠN</h2>
+					<h2 style=" font-family: 'Exo', sans-serif; font-weight: 400; font-size: 14px; color: #f26520; line-height: 22px; letter-spacing: 2px; ">CHÚNG TÔI MANG ĐẾN GIẢI PHÁP GIÚP BẠN</h2>
 				</div>
 			</div>
 			<div style="clear: both;"></div>
@@ -131,39 +131,37 @@
 				<h1 style=" font-family: 'Exo', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 24px;">LÝ DO CHỌN CHÚNG TÔI?</h1>
 				<h2 style=" font-family: 'Exo', sans-serif; font-weight: 400; font-size: 14px; color: #f26520; line-height: 22px; letter-spacing: 2px; ">CHÚNG TÔI CAM KẾT VỚI QUÝ KHÁCH HÀNG</h2>
 			</div>	  
-			<div id="accordion" >
+			<div id="accordion" style="">
 				<h3 style=" font-family: Arial,Helvetica,sans-serif;">Sản phẩm có chất lượng cao</h3>
-				<div>
-					<p>HIKVISION là một trong những nhà cung cấp hàng đầu thế giới về các sản phẩm giám sát hình ảnh và giải pháp. Hiện nay, Hikvision là doanh nghiệp toàn cầu với hơn 14.500 nhân viên với 5.400 kỹ sư R&D, với 621 đăng ký sáng chế và 259 bản quyền phần mềm. Sản phẩm có chất lượng cao, đạt các tiêu chuẩn: ISO, CE, CCC, UL, FCC, RoHS…</p>
+				<div style="line-height: 27px; color: #565656; ">
+					<p>Chúng tôi hiểu rõ tầm quan trọng của <span style="color: #f26520;">Chất lượng sản phẩm</span> ảnh hưởng đến uy tín, thương hiệu và quyết định sự sống còn của doanh nghiệp. Vì vậy, chúng tôi chỉ cung cấp Sản phẩm chính hãng, mới 100%, đúng xuất xứ và tiêu chuẩn của nhà sản xuất, cùng giải pháp hoàn hảo nhất cho hiệu quả cao khi sử dụng.</p>
 				</div>
 				<h3 style=" font-family: Arial,Helvetica,sans-serif;">Giá cả hợp lý nhất</h3>
-				<div>
-					<p>Với chất lượng tốt, giá cả hợp lý sản phẩm của Hikvision được sử dụng tại hơn 100 quốc gia trên toàn thế giới, tốc độ tăng trưởng tăng cao hàng năm. Hikvision nhiều năm liền được xếp hạng là camera bán chạy nhất thế giới (Chi tiết)</p>
-				</div>
-				<h3 style=" font-family: Arial,Helvetica,sans-serif;">Chính sách và chế độ bảo hành tốt</h3>
-				<div>
-					<p>Với việc thành lập các Trung tâm bảo hành tại Hà Nội, Hồ Chí Minh và nhiều tỉnh thành trên khắp cả nước, chúng tôi mong muốn đem đến chất lượng phục vụ nhanh và tốt nhất tới Quý khách hàng.</p>
+				<div style="line-height: 27px; color: #565656;">
+					<p>Khi đã chọn lắp đặt CAMERA quan sát, chúng tôi hiểu về mối lo nghĩ đầu tiên của bạn, lắp đặt CAMERA với giá bao nhiêu là hợp lý nhất? </p>
 					<ul>
-					  <li>List item one</li>
-					  <li>List item two</li>
+						<li>Chúng tôi tư vấn dựa trên Mục đích bạn lắp đặt CAMERA để làm gì và ở khu vực nào?</li>
+					    <li>Báo giá sẽ được chúng tôi gửi đến quý khách hàng để so sánh trước khi quyết định. </li>
 					</ul>
 				</div>
 				<h3 style=" font-family: Arial,Helvetica,sans-serif;">Chính sách và chế độ bảo hành tốt</h3>
-				<div>
-					<p>Với kho hàng hóa luôn sẵn có, sắp xếp khoa học, đội ngũ nhân viên phục vụ tận tình, chuyên nghiệp; ngoài ra việc phát triển đại lý trên toàn quốc, chúng tôi đảm bảo hàng hóa tới tay khách hàng sớm nhất có thể với lộ trình và chi phí thấp nhất.</p>
+				<div style="line-height: 27px; color: #565656;">
+					<p>Các chính sách bảo hành sản phẩm được CAMERA Bến Tre phục vụ quý khách một cách tốt nhất đồng thời đảm bảo quyền lợi chính đáng về sau</p>
 					<ul>
-					  <li>List item one</li>
-					  <li>List item two</li>
+					  <li>Có sản phẩm tương đương thay thế khi CAMERA có sự cố phần cứng cần mang về trung tâm bảo hành</li>
+					  <li>Đổi sản phẩm mới 100% trong vòng 5 phút nếu sản phẩm bị lỗi kỹ thuật trong 7 ngày đầu kể từ ngày bán hàng</li>
+					  <li>Thời gian bảo hành các sản phẩm của chúng tôi trung bình từ 24 tháng.</li>
 					</ul>
 				</div>
 				<h3 style=" font-family: Arial,Helvetica,sans-serif;">Tư vấn hỗ trợ nhiệt tình và thân thiện</h3>
-				<div>
+				<div style="line-height: 27px; color: #565656;">
 					<p>
-						Đội ngũ nhân viên hỗ trợ tư vấn kỹ thuật & bán hàng kinh nghiệm nhiều năm, nắm bắt và hiểu rõ sản phẩm; hỗ trợ nhiệt tình; chúng tôi tự hào đem đến quý khách hàng những giải pháp tốt nhất – phù hợp nhất. Sự hài lòng của Quý khách hàng là niềm vui và là sự phát triển của chúng tôi.	
+						Đội ngũ nhân viên nắm bắt và hiểu rõ sản phẩm, tư vấn hỗ trợ nhiệt tình	
 					</p>
 					<ul>
-					  <li>List item one</li>
-					  <li>List item two</li>
+					  <li>Chúng tôi coi trọng mối quan hệ lâu dài, bền vững bằng những sản phẩm, dịch vụ tốt nhất</li>
+					  <li>Luôn luôn lắng nghe ý kiến khách hàng, không ngừng cải thiện và hoàn thiện nhằm nâng cao chất lượng sản phẩm, dịch vụ</li>
+					  <li>Quý khách có thể từ chối thanh toán nếu cảm thấy không hài lòng về thái độ và dịch vụ mà do Camera Bến Tre cung cấp</li>
 					</ul>
 			  </div>
 			</div>
