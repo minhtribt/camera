@@ -1629,3 +1629,57 @@ blockquote:after {
     margin-right: 15px;
     vertical-align: middle;
 }
+
+
+.pagination {
+    
+    text-align: center;
+    width: 100%;
+}
+
+
+.pagination a {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 4px 10px;
+    margin: 0 1px;
+}
+.tranminhtri {
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; margin: 0 1px;
+}
+.pagination strong {
+       border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 4px 10px;
+    margin: 0 1px;
+}
+
+.pagination a:hover {
+    color: #fff;
+    background: #ec8526;
+    border: 1px solid #d77011;
+    text-decoration: underline;
+}
+#paging {
+    height: 30px;
+    background: #fff;
+    float: right;
+    padding: 20px 20px 0px 0px;
+}
+.clearFix {
+    clear: both;
+    padding-bottom: 20px;
+
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    padding: 2px 2px 2px 25px;
+}
+
