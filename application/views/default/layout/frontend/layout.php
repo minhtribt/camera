@@ -102,16 +102,20 @@
 
 
 	<script>
-		var icons = {
-		  header: "ui-icon-circle-arrow-e",
-		  activeHeader: "ui-icon-circle-arrow-s"
-		};
-		$( "#accordion" ).accordion({
-		  icons: icons,
-		  collapsible: true,
-		  autoHeight: true,
-		  active: false
+		$( document ).ready(function() {
+	   		var icons = {
+			  header: "ui-icon-circle-arrow-e",
+			  activeHeader: "ui-icon-circle-arrow-s"
+			};
+			$( "#accordion" ).accordion({
+			  icons: icons,
+			  collapsible: true,
+			  autoHeight: true,
+			  active: false
+			});
 		});
+
+		
 	</script>
 	<!--======= JavaScript =========-->
 	<!--======= jQuery =========-->
