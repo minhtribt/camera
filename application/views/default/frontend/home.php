@@ -915,3 +915,7 @@
 
 		</div>
 	</div>
+
+
+<!-- Dùng jquery mới này để chạy slider-bar-->
+	<script src="<?php echo base_url()?>/asset/frontend/js/jquery-1.12.4.min.js"></script>

@@ -38,6 +38,7 @@
 	<link href="<?php echo base_url()?>/asset/frontend/css/responsive_bootstrap_carousel_mega_min.css" rel="stylesheet" media="all">
 	<link href="<?php echo base_url()?>/asset/frontend/css/theme.css" rel="stylesheet" media="all">
 	
+	<script type="text/javascript" src="<?php echo base_url()?>/asset/frontend/js/myScripts.js"></script>
 	<style>
 		#owl-demo .item{
 		  display: block;
@@ -112,10 +113,11 @@
 		  active: false
 		});
 	</script>
-		<!--======= JavaScript =========-->
-
+	<!--======= JavaScript =========-->
 	<!--======= jQuery =========-->
-	<script src="<?php echo base_url()?>/asset/frontend/js/jquery-1.12.4.min.js"></script>
+
+	<! Dùng jquery cũ để chạy giỏ hàng. -->
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>  
 
 	<!--======= Bootstrap =========-->
 	<script src="<?php echo base_url()?>/asset/frontend/js/bootstrap.min.js"></script>

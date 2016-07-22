@@ -47,7 +47,7 @@
                   <div class="separator clear-left">
                     <p class="btn-add">
                       <i class="fa fa-shopping-cart"></i>
-                      <a href="#" class="hidden-sm">Add to cart</a>
+                      <a class="add-to-cart">Add to cart</a>
                     </p>
                     <p class="btn-details">
                       <i class="fa fa-list"></i>
@@ -62,16 +62,6 @@
 					
 				<?php } ?>	
 				<div class="pagination"><?php echo $this->pagination->create_links();?> </div>
-
-      
-            
-
-           
-             
-               
-                 
-                     
-               
                    
           </div>
         </div>
