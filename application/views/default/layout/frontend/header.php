@@ -105,27 +105,27 @@
 				  <div class="megamenu clearfix ">
 					<div class="col-sm-4">
 					  <h3 class="title">Gia đình</h3>
-					  <div class="fluid-width-video-wrapper"><a href="#"><img src="/asset/frontend/images/home2.jpg" alt="" width="350" height="200"/></a> </div>
+					  <div class="fluid-width-video-wrapper"><a href="#"><img src="<?php echo base_url()?>/asset/frontend/images/home2.jpg" alt="" width="350" height="200"/></a> </div>
 					</div>
 					<div class="col-sm-4">
 					  <h3 class="title">Nhà xưởng</h3>
-					  <div class="fluid-width-video-wrapper"><img src="/asset/frontend/images/nhaxuong2.jpg" alt="" width="350" height="200"/> </div>
+					  <div class="fluid-width-video-wrapper"><img src="<?php echo base_url()?>/asset/frontend/images/nhaxuong2.jpg" alt="" width="350" height="200"/> </div>
 					</div>
 					<div class="col-sm-4">
 					  <h3 class="title">Văn phòng </h3>
-					  <div class="fluid-width-video-wrapper"><img src="/asset/frontend/images/vanphong4.jpg" alt="" width="350" height="200"/> </div>
+					  <div class="fluid-width-video-wrapper"><img src="<?php echo base_url()?>/asset/frontend/images/vanphong4.jpg" alt="" width="350" height="200"/> </div>
 					</div>
 					<div class="col-sm-4">
 					  <h3 class="title mrgtop">Tiệm vàng - cửa hàng</h3>
-					  <div class="fluid-width-video-wrapper"><a href="#"><img src="/asset/frontend/images/tiemvang2.jpg" alt="" width="350" height="200"/></a> </div>
+					  <div class="fluid-width-video-wrapper"><a href="#"><img src="<?php echo base_url()?>/asset/frontend/images/tiemvang2.jpg" alt="" width="350" height="200"/></a> </div>
 					</div>
 					<div class="col-sm-4">
 					  <h3 class="title mrgtop">Trường học</h3>
-					  <div class="fluid-width-video-wrapper"><img src="/asset/frontend/images/truonghoc.jpg" alt="" width="350" height="200"/> </div>
+					  <div class="fluid-width-video-wrapper"><img src="<?php echo base_url()?>/asset/frontend/images/truonghoc.jpg" alt="" width="350" height="200"/> </div>
 					</div>
 					<div class="col-sm-4">
 					  <h3 class="title mrgtop">Nhà hàng - khách sạn </h3>
-					  <div class="fluid-width-video-wrapper"><img src="/asset/frontend/images/hotel.jpg" alt="" width="350" height="200"/> </div>
+					  <div class="fluid-width-video-wrapper"><img src="<?php echo base_url()?>/asset/frontend/images/hotel.jpg" alt="" width="350" height="200"/> </div>
 					</div>
 				  </div>
 				</li>
@@ -342,27 +342,27 @@
 				  <div class="megamenu clearfix ">
 					<div class="col-sm-4">
 					  <h3 class="title">Gia đình</h3>
-					  <div class="fluid-width-video-wrapper"><a href="#"><img src="/asset/frontend/images/home2.jpg" alt="" width="350" height="200"/></a> </div>
+					  <div class="fluid-width-video-wrapper"><a href="#"><img src="<?php echo base_url()?>/asset/frontend/images/home2.jpg" alt="" width="350" height="200"/></a> </div>
 					</div>
 					<div class="col-sm-4">
 					  <h3 class="title">Nhà xưởng</h3>
-					  <div class="fluid-width-video-wrapper"><img src="/asset/frontend/images/nhaxuong2.jpg" alt="" width="350" height="200"/> </div>
+					  <div class="fluid-width-video-wrapper"><img src="<?php echo base_url()?>/asset/frontend/images/nhaxuong2.jpg" alt="" width="350" height="200"/> </div>
 					</div>
 					<div class="col-sm-4">
 					  <h3 class="title">Văn phòng </h3>
-					  <div class="fluid-width-video-wrapper"><img src="/asset/frontend/images/vanphong4.jpg" alt="" width="350" height="200"/> </div>
+					  <div class="fluid-width-video-wrapper"><img src="<?php echo base_url()?>/asset/frontend/images/vanphong4.jpg" alt="" width="350" height="200"/> </div>
 					</div>
 					<div class="col-sm-4">
 					  <h3 class="title mrgtop">Tiệm vàng - cửa hàng</h3>
-					  <div class="fluid-width-video-wrapper"><a href="#"><img src="/asset/frontend/images/tiemvang2.jpg" alt="" width="350" height="200"/></a> </div>
+					  <div class="fluid-width-video-wrapper"><a href="#"><img src="<?php echo base_url()?>/asset/frontend/images/tiemvang2.jpg" alt="" width="350" height="200"/></a> </div>
 					</div>
 					<div class="col-sm-4">
 					  <h3 class="title mrgtop">Trường học</h3>
-					  <div class="fluid-width-video-wrapper"><img src="/asset/frontend/images/truonghoc.jpg" alt="" width="350" height="200"/> </div>
+					  <div class="fluid-width-video-wrapper"><img src="<?php echo base_url()?>/asset/frontend/images/truonghoc.jpg" alt="" width="350" height="200"/> </div>
 					</div>
 					<div class="col-sm-4">
 					  <h3 class="title mrgtop">Nhà hàng - khách sạn </h3>
-					  <div class="fluid-width-video-wrapper"><img src="/asset/frontend/images/hotel.jpg" alt="" width="350" height="200"/> </div>
+					  <div class="fluid-width-video-wrapper"><img src="<?php echo base_url()?>/asset/frontend/images/hotel.jpg" alt="" width="350" height="200"/> </div>
 					</div>
 				  </div>
 				</li>

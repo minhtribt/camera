@@ -87,7 +87,6 @@
 
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url()?>/asset/frontend/css/menu/color-theme.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url()?>/asset/frontend/css/menu/webslidemenu.css" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url()?>/asset/frontend/css/demo.css" />
 <script type="text/javascript" src="<?php echo base_url()?>/asset/frontend/js/webslidemenu.js"></script>
 
 </head>		
@@ -126,4 +125,5 @@
 
 	<!--======= Customize =========-->
 	<script src="<?php echo base_url()?>/asset/frontend/js/responsive_bootstrap_carousel.js"></script>
-</body></html>
+</body>
+</html>

@@ -69,21 +69,21 @@
 
 					<ul>
 						<li>
-							<img src="/asset/frontend/images/icon/a21.png"><strong>thiết bị chính hãng</strong>
+							<img src="<?php echo base_url()?>/asset/frontend/images/icon/a21.png"><strong>thiết bị chính hãng</strong>
 							Đầy đủ 100% CO/CQ
 						</li>
 						<li>
-							<img src="/asset/frontend/images/icon/a22.png">
+							<img src="<?php echo base_url()?>/asset/frontend/images/icon/a22.png">
 							<strong>GIải pháp chuyên sâu</strong>
 							Đáp ứng toàn diện nhu cầu
 						</li>
 						<li>
-							<img src="/asset/frontend/images/icon/a23.png">
+							<img src="<?php echo base_url()?>/asset/frontend/images/icon/a23.png">
 							<strong> Bảo hành toàn quốc</strong>
 							Linh kiện chính hãng
 						</li>
 						<li>
-							<img src="/asset/frontend/images/icon/a24.png">
+							<img src="<?php echo base_url()?>/asset/frontend/images/icon/a24.png">
 							<strong>giá thành hợp lý</strong>
 							Luôn niêm yết giá cố định
 						</li>
