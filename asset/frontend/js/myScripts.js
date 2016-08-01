@@ -38,6 +38,12 @@ $( document ).ready(function() {
             }, function () {
                 $(this).detach()
             });
+
+
+            $('html, body').animate({
+		        scrollTop: $(".menu-content  li:last-child").offset().top
+		    }, 1000);
+
         }
     });
 });
