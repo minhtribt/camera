@@ -1690,3 +1690,19 @@ blockquote:after {
     height: 24px;
     margin: 0 10px 0 0;
 }
+
+.buttonSubmit {
+	background-color: #f26520 !important;
+    border: 0;
+    white-space: nowrap;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    color:white;
+    font-family: 'Exo', sans-serif;
+}
+
+.larg{
+	padding: 10px 30px 10px 30px;
+	font-size: 20px;
+}

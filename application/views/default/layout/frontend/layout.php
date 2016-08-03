@@ -94,12 +94,9 @@
 
 <body class="">
 
-
-	<?php $this->load->view("default/layout/frontend/header");?> 
-    <?php $this->load->view($template,$data); ?> 
+	<?php $this->load->view("default/layout/frontend/header");?>	
+    <?php $this->load->view($template,$data); ?>     
     <?php $this->load->view("default/layout/frontend/footer");?> 
-
-
 
 	<script>
 		$( document ).ready(function() {

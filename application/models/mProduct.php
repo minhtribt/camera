@@ -22,20 +22,17 @@ class MProduct extends CI_model{
         return $result_array; 
     } 
     
-    function GetProduct($id){
+    public function getProductById($id){
 		$this->db->select('*');
 		$this->db->from('product');
-		$this->db->join('cate', 'theloai.theloai_id = tintuc.id_TheLoai');
-		$this->db->join('nguoidung', 'tintuc.id_user = nguoidung.NguoiDung_id');
-        $this->db->where("TinTuc_id",$id);
-		$this->db->order_by("TinTuc_id", "desc"); 
+        $this->db->where("product_id",$id);
         $query=$this->db->get();
         $data = $query->row();
         return $data; //only return  1 record
         //return $query->row_array();
     } 
 	
-    function Insert($data) {
+    public function Insert($data) {
         $this->db->insert('product',$data);
         return $this->db->insert_id();
     }
@@ -45,7 +42,7 @@ class MProduct extends CI_model{
         $this->db->update('product', $data); 
     }
 
-    function Delete($Tintuc_id){
+    public function Delete($Tintuc_id){
         $this->db->where("TinTuc_id",$Tintuc_id);
         $this->db->delete('product');
         //unlink("./upload/" . $file[0]['file_name']); //xóa file upload trong thư mục chứa
