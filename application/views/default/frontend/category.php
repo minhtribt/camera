@@ -1,5 +1,7 @@
 <!----------------------------------------------------------------------------------CONTENT------------------------------------------------------------------------------------------------------------------>
 
+
+
 <div style="clear: both;"></div>
 <div class="paralax bg-image page-title" style=" background: #424242;">
 
@@ -47,7 +49,7 @@
                   <div class="separator clear-left">
                     <p class="btn-add">
                       <i class="fa fa-shopping-cart"></i>
-                      <a class="add-to-cart">Add to cart</a>
+                      <a class="add-to-cart" value="<?php echo($sp['product_id']) ?>">Add to cart</a>
                     </p>
                     <p class="btn-details">
                       <i class="fa fa-list"></i>

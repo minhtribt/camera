@@ -1,6 +1,5 @@
 
-$( document ).ready(function() {
-    
+$( document ).ready(function() {    
    $('.add-to-cart').on('click', function () {
         var cart = $('.shopping-cart');        
         var imgtodrag = $(this).parent().parent().parent().parent().find('img').eq(0);
@@ -37,11 +36,12 @@ $( document ).ready(function() {
             }, function () {
                 $(this).detach()
             });
-
+                        
+            var product_Id = this.getAttribute('value');            
             $.ajax({ 
                 type: "POST",
-                url: "http://localhost:8080/camera/cart/addCartProduct",  
-                data: { productID: 1},  
+                url: js_BaseURL + "/cart/addCartProduct",  
+                data: { productID:product_Id},  
                 success: function(theResponse) {
                     setTimeout(function(){
                         $("#txtSoLuongSanPham").html(theResponse);

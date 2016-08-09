@@ -1,20 +1,23 @@
-<div class="title-content">Giỏ Hàng Của Bạn</div>
+
 <?php 
 	$i = 1;
 	if(count($dataShop) >0) {
 ?>
 
 <form action="../cartfinish/updateQtyProduct" method="post" name="suaSoLuong">
-	<table  width="100%" border="0" align="center" cellpadding="0" cellspacing="15" style='text-align:center'>
-	    <tr style = 'height:25px; line-height:25px; font-size:14px'>
-	    	<th style='display:none'></th>
-	    	<th>STT</th>	        
-	        <th>Xóa</th>	         
-	        <th>Tên Sản Phẩm</th>
-	        <th>Giá</th>
-	        <th>Số Lượng</th>	        
-	        <th>Thành Tiên</th>
-	    </tr>
+	<table style="margin-top: 20px" width="100%" border="0" class="table-bordered">
+		<thead>	     
+	        <tr>
+		    	<th style='display:none'></th>
+		    	<th>STT</th>	        
+		        <th>Xóa</th>	         
+		        <th>Tên Sản Phẩm</th>
+		        <th>Giá</th>
+		        <th>Số Lượng</th>	        
+		        <th>Thành Tiên</th>
+		    </tr>	     
+	    </thead>
+	    <tbody>
 
 	    <?php foreach ($dataShop as $items ) { ?>
 			<tr>
@@ -35,18 +38,15 @@
 		<?php $i++; } ?>
 
 		<tr>
-			<td  align="right" style="padding-right:10px; font-weight:bold; font-size:14px" colspan="5"></td>
-		    <td align="center">---------------------</td>
+			<td  align="right" style="padding-right:10px; border: 0px; font-weight:bold; font-size:14px" colspan="5"></td>
+		    <td align="center" style="border: 0px;">---------------------</td>
 	    </tr>
-
 		<tr>
-			<td  align="right" style="padding-right:10px; font-weight:bold; font-size:14px" colspan="5">Tổng Cộng:</td>
-		    <td align="center" style="font-weight:bold; font-size:14px"><?php echo $totalAmount ?></td>
+			<td  align="right" style="border: 0px; padding-right:10px; font-weight:bold; font-size:14px" colspan="5">Tổng Cộng:</td>
+		    <td align="center" style="border: 0px; font-weight:bold; font-size:14px"><?php echo $totalAmount ?></td>
 	    </tr>
-
-
+		</tbody>
 	</table>
-
 	<div align="center" style="padding-top:20px" > <input type="submit" class='btn buttonSubmit' value="Câp Nhật Số Lượng"/></div>
 </form>
 

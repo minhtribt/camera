@@ -60,7 +60,7 @@
 							</li>
 						</ul>
 				 </div>
-				<div class="brand"> GIỎ HÀNG <span style="font-weight: bold" id="txtSoLuongSanPham"></span> (SẢN PHẨM) <a href="#"> Xem</a></div>
+				<div class="brand"> GIỎ HÀNG <span style="font-weight: bold" id="txtSoLuongSanPham"></span> (SẢN PHẨM) <a href="<?php echo base_url() ?>home/showcart"> Xem</a></div>
 					<div style="text-align:center">
 					<span><i class="shopping-cart"></i></span> 
 					</div>

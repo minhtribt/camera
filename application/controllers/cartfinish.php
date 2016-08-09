@@ -6,9 +6,6 @@ class Cartfinish extends CI_Controller{
         $this->load->Model("mcart");
         $this->load->Model("mcartdetail");
 
-        $this->load->library("my_layout"); // Sử dụng thư viện layout
-        $this->my_layout->setLayout("layout/frontend"); // load file layout chính (view/layout/frontend.php)
-
         $this->load->helper('captcha');
         $this->load->helper(array('form', 'url'));
         $this->load->library('form_validation');
@@ -61,20 +58,17 @@ class Cartfinish extends CI_Controller{
     }
 
     public function payment() {
+        $data['data'] = '';
+        $data['template'] = 'default/frontend/paymentcart';
         $data['dataShop'] = $this->getProductInShoppingCart();
         $data['totalAmount'] = $this->format_price($this->cart->total());
         $data['title'] = "Thanh Toán Giỏ Hàng";
-
-        $sess = $this->session->userdata('users_Id');
-        if($sess != null) {
-            $this->my_layout->view("frontend/paymentcart",$data);
-        } else {
-            $this->my_layout->view("frontend/info_login",$data);
-        }
+        $this->load->view("default/layout/frontend/layout",$data);
 
     }
     public function infopayment(){
         $data['title'] = "Thông tin khách hàng";
+        $data['data'] = '';
         $config = array(
             array(
                  'field'   => 'info_name', 
@@ -109,7 +103,7 @@ class Cartfinish extends CI_Controller{
         );
 
         $this->form_validation->set_rules($config);
-        $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
+        $this->form_validation->set_error_delimiters('<div class="errors_form">', '</div>');
 
         //captcha_Check
         $randomValue = $this ->randomValue();
@@ -123,7 +117,7 @@ class Cartfinish extends CI_Controller{
             "img_url"   =>  base_url()."captcha/",//đã là đường dẫn để hiển thị hình ảnh sau khi tạo xong captcha
             'font_path'  => base_url().'fonts/texb.ttf',
             "img_width" => 150,//chiều dài của captcha
-            "img_height"=> 30,//chiều cao của captcha
+            "img_height"=> 60,//chiều cao của captcha
             "expiration"=> 7200 //thời gian hết hạn của captcha
             );
         
@@ -132,7 +126,8 @@ class Cartfinish extends CI_Controller{
 
         if ($this->form_validation->run() == FALSE)
         {
-           $this->my_layout->view("frontend/info_payment",$data);
+            $data['template'] = 'default/frontend/info_payment'; 
+            $this->load->view("default/layout/frontend/layout",$data);
         } else {
             $array = array(
                 "session_id_login" => $this->session->userdata('users_Id'),

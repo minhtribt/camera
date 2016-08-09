@@ -99,6 +99,7 @@
     <?php $this->load->view("default/layout/frontend/footer");?> 
 
 	<script>
+		var js_BaseURL = "";
 		$( document ).ready(function() {
 	   		var icons = {
 			  header: "ui-icon-circle-arrow-e",
@@ -110,6 +111,8 @@
 			  autoHeight: true,
 			  active: false
 			});
+
+			js_BaseURL = "<?php echo base_url() ?>";
 		});
 
 		

@@ -1703,6 +1703,17 @@ blockquote:after {
 }
 
 .larg{
-	padding: 10px 30px 10px 30px;
+	padding: 10px 40px 10px 40px;
 	font-size: 20px;
+}
+
+.add-to-cart {
+	cursor: pointer;
+}
+
+.errors_form {
+	color: red;
+	background-color: white;
+	font-weight: bold;
+	text-align: left;
 }
