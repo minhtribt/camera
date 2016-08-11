@@ -72,5 +72,7 @@
     <!--*-*-*-*-*-*-*-*-*-*- END BOOTSTRAP CAROUSEL *-*-*-*-*-*-*-*-*-*-->
 
   </div>
+  <div class="col-sm-3 sidebar sidebar-product tritran_4" style="">
   <?php $this->load->view("default/layout/frontend/sidebar-right");?>
+  </div>
 </div>

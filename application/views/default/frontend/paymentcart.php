@@ -3,7 +3,20 @@
 	if(count($dataShop) >0) {
 ?>
 
-<form action="../cartfinish/updateQtyProduct" method="post" name="suaSoLuong">
+
+<div style="clear: both;"></div>
+<div class="paralax bg-image page-title" style=" background: #424242;">
+  <div class="container-fluid">
+    <div class="title">
+      	Giỏ hàng của bạn
+    </div>
+  </div>
+</div>
+
+
+<div id="" class="container-tritran">
+<div class="col-md-9">
+	<form action="../cartfinish/updateQtyProduct" method="post" name="suaSoLuong">
 	<table style="margin-top: 20px" width="100%" border="0" class="table-bordered">
 		<thead>	     
 	        <tr>
@@ -56,7 +69,11 @@
 	</table>
 
 </div>
-
 <?php } else 
 	echo("<div class='khongcosanpham'>Không có sản phẩm nào trong giỏ hàng </div>");
 ?>
+</div>
+<div class="col-sm-3 sidebar sidebar-product tritran_4" style="">
+  <?php $this->load->view("default/layout/frontend/sidebar-right");?>
+  </div>
+</div>

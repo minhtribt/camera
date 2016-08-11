@@ -1,4 +1,4 @@
-<div class="col-sm-3 sidebar sidebar-product tritran_4" style="">
+
 			  <div class="nav-side-menu">
 				<div class="brand">DANH MỤC THIẾT BỊ</div>
 				<i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>			  		
@@ -93,4 +93,4 @@
 					</ul>
 				</div>
 			</div>
-        </div>	
+        	
