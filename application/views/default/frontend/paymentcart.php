@@ -58,5 +58,5 @@
 </div>
 
 <?php } else 
-	echo("<div style='text-align: center'>Không có sản phẩm nào trong giỏ hàng </div>");
+	echo("<div class='khongcosanpham'>Không có sản phẩm nào trong giỏ hàng </div>");
 ?>

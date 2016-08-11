@@ -114,8 +114,9 @@ class Cartfinish extends CI_Controller{
             "img_url"   =>  base_url()."captcha/",//đã là đường dẫn để hiển thị hình ảnh sau khi tạo xong captcha
             'font_path'  => base_url().'fonts/texb.ttf',
             "img_width" => 150,//chiều dài của captcha
-            "img_height"=> 60,//chiều cao của captcha
-            "expiration"=> 7200 //thời gian hết hạn của captcha
+            "img_height"=> 30,//chiều cao của captcha
+            "expiration"=> 7200, //thời gian hết hạn của captcha
+            "font_size" => 30,
             );
         
         $cap = create_captcha($val);

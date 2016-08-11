@@ -37,7 +37,7 @@ class Cart extends CI_Controller{
     
     function destroyCart() {
         $this->cart->destroy();
-        echo("<div style='text-align: center'>Không có sản phẩm nào trong giỏ hàng </div>");
+        echo("<div class='khongcosanpham'>Không có sản phẩm nào trong giỏ hàng </div>");
     }
 
     function showCart() {

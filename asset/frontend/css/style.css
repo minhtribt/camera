@@ -1723,3 +1723,9 @@ blockquote:after {
 	padding: 10px;
 	font-size: 24px;	
 }
+
+.khongcosanpham {
+	text-align: center;
+	font-size: 24px;
+	padding: 10px;
+}

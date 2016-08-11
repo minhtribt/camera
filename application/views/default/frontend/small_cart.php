@@ -18,5 +18,5 @@
 </table>
 <script src="<?php echo base_url()?>public/frontend/scripts/customerReload.js" type="text/javascript"></script>
 <?php } else 
-	echo("<div style='text-align: center'>Không có sản phẩm nào trong giỏ hàng </div>");
+	echo("<div class='khongcosanpham'>Không có sản phẩm nào trong giỏ hàng </div>");
 ?>
