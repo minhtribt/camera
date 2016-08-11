@@ -2,7 +2,7 @@
 
 <?php echo form_open(base_url().'cartfinish/infopayment'); ?>
 
-<table width="80%" style="margin: auto" cellpadding="3" cellspacing="3">
+<table width="100%" style="margin: auto" cellpadding="3" cellspacing="3">
 	<tr> 
 		<td colspan="2"><?php echo validation_errors(); ?></td>
 	</tr>

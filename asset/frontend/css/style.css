@@ -1717,3 +1717,9 @@ blockquote:after {
 	font-weight: bold;
 	text-align: left;
 }
+
+.title-content {
+	font-weight: bold;
+	padding: 10px;
+	font-size: 24px;	
+}

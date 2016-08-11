@@ -15,13 +15,15 @@ class Cartfinish extends CI_Controller{
     }
     //insert on db
     public function insertCart($array) {
+        $data['data'] = '';
         $data['title'] = 'Thông báo';
+        $data['template'] = 'default/frontend/info_payment_success';
         $idCart = $this->mcart->insertCart($array);
         $this->mcartdetail->insertProducts($idCart);
         $this->mcart->updatePriceCart($this->cart->total(), $idCart);
         //Hủy giỏ hàng
         $this->cart->destroy();
-        $this->my_layout->view("frontend/info_payment_success",$data);
+        $this->load->view("default/layout/frontend/layout",$data);
         
     }
     //update on db
@@ -94,12 +96,7 @@ class Cartfinish extends CI_Controller{
                  'field'   => 'captcha', 
                  'label'   => 'Captcha', 
                  'rules'   => 'required|callback_captcha_Check'
-            ),
-            array(
-                 'field'   => 'info_notes', 
-                 'label'   => 'info_notes',
-                 'rules'   => 'required'
-            )
+            )            
         );
 
         $this->form_validation->set_rules($config);
