@@ -60,11 +60,20 @@
 							</li>
 						</ul>
 				 </div>
-				<div class="brand"> GIỎ HÀNG <span style="font-weight: bold" id="txtSoLuongSanPham"></span> (SẢN PHẨM) <a href="<?php echo base_url() ?>home/showcart"> Xem</a></div>
+				 <br/>
+				<div id="GioHangId" class="brand" style="cursor: pointer"><a style="color:white" href="<?php echo base_url() ?>home/showcart"> XEM GIỎ HÀNG <span style="font-weight: bold" id="txtSoLuongSanPham"></span> (SẢN PHẨM) </a></div>
 					<div style="text-align:center">
-					<span><i class="shopping-cart"></i></span> 
-					</div>
 
+					<i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>			  		
+					<div class="menu-list">			  
+						<ul id="menu-content" class="menu-content collapse out">
+							<li>
+							  <span><i class="shopping-cart"></i></span> 
+							</li>
+						</ul>
+					</div>
+					
+					</div>
 			</div>
 
 			<div class="col-sm-12 cat-sidebar list-icon-sidebar">

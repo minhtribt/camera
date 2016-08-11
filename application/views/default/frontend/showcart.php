@@ -84,11 +84,7 @@
 	echo("<div class='khongcosanpham'>Không có sản phẩm nào trong giỏ hàng </div>");
 ?>
 </div>
-
-
 <div class="col-sm-3 sidebar sidebar-product tritran_4" style="">
   <?php $this->load->view("default/layout/frontend/sidebar-right");?>
   </div>
-
-
 </div>

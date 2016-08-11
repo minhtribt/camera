@@ -53,7 +53,7 @@ $( document ).ready(function() {
                 }
             });
             $('html, body').animate({
-		        scrollTop: $(".menu-content  li:last-child").offset().top
+		        scrollTop: $("#GioHangId").offset().top
 		    }, 1000);
         }
     });
